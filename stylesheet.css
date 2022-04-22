@@ -1,0 +1,70 @@
+/*
+(hash/#) = id single
+(dot/.) = class multiple
+
+svgClass
+circleClass
+circleId
+*/
+html{margin:0;padding:0;}
+body{
+    display:block;
+    min-height: 95vh;
+    max-height: 95vh;
+    min-width: 95vw;
+    max-width: 95vw;
+    margin:0;
+    padding:0;
+    background-color: #f19646;
+    overflow-x: hidden;
+}
+#gamecontainer{
+    min-height: 70vh;
+    max-height: 70vh;
+    width:106%;
+    display:flex;
+
+    flex-direction: row;                /* sort element horizontal / vertical (main-cross axis)*/
+    justify-content:center;           /* element relations inbetween space*/
+    align-items:stretch;               /* vertical */
+    flex-wrap:nowrap;                    /* overflow content*/
+    background-color: cyan;
+}
+#sidecontainer{
+    min-height:100%;
+    width:5%;
+    background-color: #0030B2;
+}
+#centercontainer{
+    min-height:100%;
+    width:90%;
+    background-color: #0041F3;
+}   
+#titlecontainer{    
+    color:white;
+    background-color: #FF7800;
+    font-size: 30px;
+    position: absolute;
+    width:90.7%;
+    text-align: center;
+}
+
+#footercontainer{
+    display:block;
+    text-align: center;
+    align-items:center;
+}
+
+/*
+.svgClass{
+    width:fit-content;
+    height:500px;
+}
+.svgClass .circleClass{
+    animation: aMoveUnit 1s infinite ease-in-out;
+}
+@keyframes aMoveUnit{
+    0%      {transform:translate(10%,5%);}
+    50%     {transform:translate(10%,85%);}
+    100%    {transform:translate(10%,5%);}
+}*/

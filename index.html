@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+  <title>Hello, world!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head> 
+<body>
+    <div id="gamecontainer"> <!--This contains everything-->
+
+      <div id="sidecontainer"></div>
+      <div id="centercontainer"> 
+        <div id="titlecontainer">Jumping game</div>
+        <canvas></canvas>
+
+        <!--<svg id="playerIdDuck" width="100%" height="100%" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+            <g class="playerDuck">
+              <g transform="matrix(0.299387,0,0,0.272604,8.31108,-1.10136)">
+                  <path d="M14.451,14.257C14.451,14.257 12.708,13.754 12.512,9.647C12.512,7.368 14.904,5.351 17.14,5.541C18.507,5.657 19.564,5.882 20.396,6.967C20.652,7.301 20.701,8.194 20.701,8.194C22.151,8.334 22.945,9.131 23.351,9.689L22.771,10.271L23.452,11.036C22.525,11.581 21.728,12.457 20.384,11.75C20.18,12.831 20.778,13.811 21.489,14.592C22.341,15.09 23.802,17.151 23.464,18.643C23.338,19.839 22.597,22.11 22.027,22.559C21.229,23.817 18.077,24.315 15.006,24.217C12.749,24.294 8.881,22.039 7.995,20.795C6.597,19.581 6.26,17.213 6.384,15.499C6.416,15.053 6.677,14.59 7.075,14.37C9.37,13.105 11.658,13.557 13.881,14.781L14.451,14.257Z" style="fill:rgb(242,175,13);stroke:rgb(240,234,0);stroke-width:0.7px;"/>
+              </g>
+              <g transform="matrix(0.198071,0,0,0.198071,9.86238,0.00724635)">
+                  <ellipse cx="18.943" cy="6.789" rx="1.442" ry="1.296" style="fill:rgb(194,118,10);"/>
+              </g>
+            </g>  
+        </svg>-->
+
+        </div>
+      <div id="sidecontainer"></div>
+    </div>
+
+    <div id="footercontainer">
+      <button name="button" onclick="moveJump()" onmouseup="jumpRelease()">Jump</button><br><br>
+      <button name="button" onclick="moveLeft()" onmouseup="moveRelease()">Left</button>. . . .
+      <button name="button" onclick="moveRight()" onmouseup="moveRelease()">Right</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
