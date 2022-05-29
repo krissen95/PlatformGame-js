@@ -1,5 +1,5 @@
 # PlatformGame-js
-This is platform sidescroller game where you can move and jump around.
+This is a work in progress, of a platform sidescroller game where you can move and jump around.
 <br>
 Using the Lottie API to load SVG animations.
 <br>
